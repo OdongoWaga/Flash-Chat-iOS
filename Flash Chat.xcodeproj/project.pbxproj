@@ -20,7 +20,6 @@
 		63EBB3051D98004B004175E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EBB3041D98004B004175E5 /* LaunchScreen.storyboard */; };
 		71A690EDA9D6351D5E31B3AC /* Pods_Flash_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23119A6D8FAAC94AF28F8EA0 /* Pods_Flash_Chat.framework */; };
 		8D9B13B8232D768500F1F502 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D9B13B7232D768500F1F502 /* GoogleService-Info.plist */; };
-		AD6D00E420EA766400B1782A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6D00E320EA766400B1782A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +40,6 @@
 		63EBB3041D98004B004175E5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D9B13B7232D768500F1F502 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD5E2AD54D3E7F7F8C72E30E /* Pods-Flash Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat/Pods-Flash Chat.debug.xcconfig"; sourceTree = "<group>"; };
-		AD6D00E320EA766400B1782A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +65,7 @@
 		6321A9AD1B94EBA10053D2E7 = {
 			isa = PBXGroup;
 			children = (
-				AD6D00E320EA766400B1782A /* README.md */,
+				8D72519E2330FAA0004E9D90 /* assets */,
 				6321A9B81B94EBA10053D2E7 /* Flash Chat */,
 				6321A9B71B94EBA10053D2E7 /* Products */,
 				E8DA9989B7EB7C4926B57A0C /* Pods */,
@@ -143,13 +141,19 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		8D72519E2330FAA0004E9D90 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
 		E8DA9989B7EB7C4926B57A0C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				AD5E2AD54D3E7F7F8C72E30E /* Pods-Flash Chat.debug.xcconfig */,
 				2943F6FE7DC9B69DC1312847 /* Pods-Flash Chat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -218,7 +222,6 @@
 			files = (
 				63E28B291B9A336600FBF6E0 /* Main.storyboard in Resources */,
 				6321A9C31B94EBA10053D2E7 /* Images.xcassets in Resources */,
-				AD6D00E420EA766400B1782A /* README.md in Resources */,
 				63EBB3051D98004B004175E5 /* LaunchScreen.storyboard in Resources */,
 				6321A9E51B94EBE70053D2E7 /* MessageCell.xib in Resources */,
 				8D9B13B8232D768500F1F502 /* GoogleService-Info.plist in Resources */,
